@@ -43,6 +43,7 @@ public class Ice4Test {
     public void testCheckforchar() {
         System.out.println("checkforchar");
         String w = "bro";
+        //String w= "atlas"//bad testing
         Ice4.checkforchar(w);
     }
 
@@ -62,7 +63,8 @@ public class Ice4Test {
     public void testCheckword() {
         System.out.println("checkword");
         String sen = "I am a boy";
-        String word = "boy";
+        String word = "boy"; //good testing
+        //String word= "BOY"//bad testing
         Ice4.checkword(sen, word);
     }
     
